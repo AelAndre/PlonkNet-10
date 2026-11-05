@@ -1,5 +1,5 @@
-    *.pt
-    *.pth
-    *.zip
-    data/
-    .ipynb_checkpoints/
+*.pt
+*.pth
+*.zip
+data/
+.ipynb_checkpoints/
