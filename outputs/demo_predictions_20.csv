@@ -1,0 +1,21 @@
+file,true,predicted,confidence,top1_correct,in_top5
+BR_00.png,Brazil,Brazil,0.797,True,True
+BR_01.png,Brazil,Brazil,0.602,True,True
+ES_00.png,Spain,South Africa,0.703,False,True
+ES_01.png,Spain,South Africa,0.413,False,True
+FR_00.png,France,France,0.613,True,True
+FR_01.png,France,France,0.372,True,True
+GE_00.png,Germany,United States,0.594,False,True
+GE_01.png,Germany,France,0.45,False,True
+IT_00.png,Italy,France,0.537,False,True
+IT_01.png,Italy,France,0.857,False,True
+JP_00.png,Japan,Italy,0.288,False,True
+JP_01.png,Japan,Japan,0.585,True,True
+PL_00.png,Poland,Poland,0.629,True,True
+PL_01.png,Poland,France,0.615,False,True
+TH_00.png,Thailand,Thailand,0.62,True,True
+TH_01.png,Thailand,Thailand,0.813,True,True
+US_00.png,United States,United States,0.862,True,True
+US_01.png,United States,United States,0.799,True,True
+ZA_00.png,South Africa,South Africa,0.42,True,True
+ZA_01.png,South Africa,Brazil,0.817,False,True
