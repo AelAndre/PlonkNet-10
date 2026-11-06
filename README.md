@@ -10,7 +10,7 @@ The prediction notebook already has a cell to upload images and see the model's 
 1. Open `notebooks/03_PlonkNet_Prediction.ipynb` in Google Colab: [open in Colab](https://colab.research.google.com/github/AelAndre/PlonkNet-10/blob/main/notebooks/03_PlonkNet_Prediction.ipynb).
 2. Get the trained weights: download `plonknet10_baseline_v1.pt` from the [Drive folder](https://drive.google.com/drive/folders/1cvJU1xJKnrCvmUxH2qyRhXois4tjetzW?usp=sharing), upload it to your own Google Drive and change `CHECKPOINT_PATH` in the setup cell to its location. This is the only line you need to change.
 3. Run the cells in order: Setup, Load the model, and Preprocessing.
-4. In the section **Try it: upload your images here**, run the cell and choose one or more images (a GeoGuessr screenshot or any street-level photo).
+4. In the section **Predict: upload your images**, run the cell and choose one or more images (a GeoGuessr screenshot or any street-level photo).
 
 For each image, the notebook shows the image as the model sees it (center-cropped to the panoramic ratio used in training) and the 5 most likely countries, as a chart and as text in the console. A GPU is not needed: the default Colab CPU is enough.
 
@@ -36,7 +36,7 @@ ResNet50 pretrained on ImageNet, frozen, with a new linear head of 10 outputs (2
 The `outputs/` folder contains the small results: class list, split, metrics per epoch, final results, demo predictions and figures.
 
 ## Report
-`report/PlonkNet10_report.pdf` (IEEE conference format) and its LaTeX source.
+`report/PlonkNet10_report.pdf` (IEEE conference format).
 
 ## Model weights and data
 The weights, the cached features and the processed images are too large for GitHub. They are available here: https://drive.google.com/drive/folders/1cvJU1xJKnrCvmUxH2qyRhXois4tjetzW?usp=sharing
